@@ -1,0 +1,189 @@
+
+:root{
+  --amarelo: #FFCE56;
+  --cinza: #C4C4C4;
+  --cinzaTitulos: #D8D6D6;
+  --verdeBotaoAdd: #3ACD52;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+/*Cabeçalho*/
+#cabecalho{
+  background-color: var(--amarelo);
+  color: white;
+}
+#infoCaixa{
+  margin: 20px;
+  padding-top: 13px;
+}
+#info{
+  font-size: 50px;
+}
+#verSaldo{
+  font-size: 100%;
+  border-radius: 30px;
+  border: none;
+}
+/*Bloco Notificações*/
+#caixaNotificacoes{
+  margin: 1%;
+  border-radius: 15px;
+  background-color: white;
+}
+#cabecalhoNotificacoes{
+  border-radius: 10px 10px 0px 0px;
+  background-color: var(--cinza);
+  text-align: center;
+}
+h5{
+  padding-top: 5px;
+}
+.botoesNotificacoes{
+  border-radius: 10px 10px 0px 0px;
+  border: none;
+  background-color: var(--cinza);
+}
+main{
+  margin-top: 10px;
+}
+.notificacaoNaoVista{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  background-color: var(--cinzaTitulos);
+  border: solid #797979;
+  border-radius: 8px;
+  padding: 5px;
+}
+/*Opções*/
+#opcoesCaixa{
+  padding-top: 10px;
+  padding-left: 90px;
+  display: flex;
+}
+.opcoes{
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+.opcoes:hover{
+  color: black;
+}
+.opcoes:focus{
+  background-color: lightgray;
+}
+#resumo{
+  white-space: nowrap;
+  margin-right: 100px;
+}
+#objetivos{
+  white-space: nowrap;
+  margin-right: 125px;
+}
+#graficos{
+  white-space: nowrap;
+  margin-right: 110px;
+}
+#categorias{
+  white-space: nowrap;
+  margin-right: 145px;
+}
+#minhasContas{
+  white-space: nowrap;
+  margin-right: 195px;
+}
+.botaoConteudo{
+  border: none;
+  background-color: white;
+  padding-bottom: -10px;
+}
+/*Meses*/
+#mes{
+  font-size: xx-large;
+  background-color: #E5E5E5;
+  border-radius: 25px;
+  height: 55px;
+}
+/*Cards*/
+#caixaCards{
+  padding-top: 15px;
+  justify-content: space-around;
+}
+.bordaCard{
+  border-radius: 20px 20px 20px 20px;
+  border: var(--cinzaTitulos) solid;
+  box-shadow: 0px 2px 3px black;
+}
+.cabecalhoCard{
+  text-align: center;
+  color: black;
+  font-size: 23px;
+  background-color: var(--cinzaTitulos);
+  border-radius: 15px 15px 0px 0px;
+}
+.cabecalhoCard:first-child{
+  padding-left: 30px;
+  padding-top: 5px;
+}
+.botaoPontos{
+  margin-left: -15px;
+  color: gray;
+  background-color: var(--cinzaTitulos);
+  border: none;
+}
+/*Itens do Card*/
+.itemBorda{
+  margin: 10px 3px 0px 3px;
+  width: 335px;
+  border: solid 2px;
+  border-radius: 10px;
+}
+.iconeItem{
+  font-size: 25px;
+  text-align: center;
+  margin: 2px -5px 2px -5px;
+  border-radius: 15px;
+}
+.tituloItem{
+  padding-top: 8px;
+  white-space: nowrap;
+}
+.palavraG{
+  padding-top: 11px;
+}
+.palavraGG{
+  font-size: small;
+  padding-top: 13px;
+}
+.quantiaItem{
+  color: var(--amarelo);
+  padding: 8px 0px 0px 110px;
+}
+#iconeCartao{
+  margin-top: 11px;
+}
+#cartoes{
+  padding-top: 5px;
+  white-space: nowrap;
+}
+.subtituloItem{
+  color: gray;
+  padding-left: 55px;
+  margin-top: -18px;
+}
+.botaoAddItem{
+  font-size: large;
+  color: var(--verdeBotaoAdd);
+  background-color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: var(--verdeBotaoAdd);
+}
